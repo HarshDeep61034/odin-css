@@ -114,3 +114,20 @@ span.par{
     color: grey;
     text-align: center;
 }
+
+.quote{
+    margin-top: 150px;
+    background: #E5E7EB;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.qote{
+    font-size: 45px;
+    font-weight: 300;
+    width: 40vw;
+
+}
