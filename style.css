@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    height: 75vh;
+    width: 100vw;
+    background: #1F2937;
+}
+nav{
+    display: flex;
+    height: 8vh;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    font-size: 20px;
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+li:hover{
+    color: #3882F6;
+}
+.hero-text{
+    font-size: 25px;
+    font-weight: 900;
+    position: relative;
+    left: 150px;
+}
+
+.margin{
+    display: inline-block;
+    margin-top: 80px;
+
+}
+.text{
+    
+    color: white;
+    width: 32vw;
+    height: 40vh;
+    margin-left: 20vw;
+
+}
+.img{
+    background: url("https://media.istockphoto.com/id/500954400/photo/computer-coffee-mug-telephone-on-black-wood-table-sun-rising.jpg?s=612x612&w=0&k=20&c=AWZgqePKVZQ30tKTRtZQlrWSd1ycwGpVtr1tRbDmn8o=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 37vw;
+    height: 40vh;
+}
+
+.bold{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.sign-up{
+    width: 140px;
+    height: 35px;
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    color:white;
+    background: #3882F6;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 7px;
+    transition: all 0.4s;
+}
+
+.sign-up:hover{
+    background: #2862c0;
+}
+
+h2.info{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
