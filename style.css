@@ -172,3 +172,14 @@ section.last{
     color: #3882F6;
     background: white;
 }
+
+footer{
+      width: 100vw;
+      height: 15vh;
+      background: #1F2937;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 25px;
+}
