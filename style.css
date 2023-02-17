@@ -131,3 +131,44 @@ div.qote{
     width: 40vw;
 
 }
+
+section.last{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    
+}
+.last-div{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 19vh;
+    width: 80vw;
+    background-color: #3882F6;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0 150px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.last-btn{
+    width: 160px;
+    height: 45px;
+    border: 2px solid white;
+    color: white;
+    background: #3882F6;
+    font-size: 25px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.last-btn:hover{
+    width: 160px;
+    height: 45px;
+    border: 2px solid white;
+    color: #3882F6;
+    background: white;
+}
